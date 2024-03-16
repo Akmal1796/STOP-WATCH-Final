@@ -7,6 +7,8 @@ const stopwatchElement = JSON.parse(localStorage.getItem('stopwatchElement')) ||
 let checkStopWatch = false;
 let intervalId;
 
+updateSecond();
+
 function updateSecond() {
 
     if(!checkStopWatch) {

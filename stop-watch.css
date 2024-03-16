@@ -1,62 +1,44 @@
+.stop-watch-container {
+    background-color: bisque;
+    padding: 10px;
+    display: inline-block;
+/*     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5); this is for inside shadow*/
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
 
 .stop-watch-timer {
-    font-size: 50px;
-    border-radius: 15px;
-    background-color: #f3c8bb;
-    margin: auto;
-    margin-bottom: 10px;
-    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
     text-align: center;
-    padding: 10px;
+    border-radius: 10px;
 }
 
 .start-button {
-    background-color: rgb(18, 186, 18);
-    color: white;
-    font-weight: bold;
+    margin-top: 10px;
     border: none;
-    border-radius: 5px;
-    padding: 10px;
-    margin-right: 10px;
-    margin-left: 45%;
+    border-radius: 10px;
+    background-color: rgb(84, 212, 255);
+    font-weight: bold;
+    padding: 8px 12px;
     cursor: pointer;
-    transition: box-shadow 0.5s, opacity 0.5s;
+    transition: box-shadow 0.2s;
 }
 
 .start-button:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    opacity: 0.8;
-}
-
-.stop-button {
-    background-color: rgb(255, 51, 51);
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    margin-right: 10px;
-    cursor: pointer;
-    transition: box-shadow 0.5s, opacity 0.5s;
-}
-
-.stop-button:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    opacity: 0.6;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .reset-button {
-    background-color: blue;
-    color: white;
-    font-weight: bold;
     border: none;
-    border-radius: 5px;
-    padding: 10px;
-    cursor: pointer;
-    transition: box-shadow 0.5s, opacity 0.5s;
+    border-radius: 10px;
+    background-color: lightcoral;
+    font-weight: bold;
+    padding: 8px 12px;
+    cursor: pointer;          
+    transition: box-shadow 0.2s;
 }
 
 .reset-button:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    opacity: 0.6;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
