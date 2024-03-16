@@ -1,0 +1,62 @@
+
+.stop-watch-timer {
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: #f3c8bb;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.start-button {
+    background-color: rgb(18, 186, 18);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 45%;
+    cursor: pointer;
+    transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+.start-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+}
+
+.stop-button {
+    background-color: rgb(255, 51, 51);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+.stop-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+}
+
+.reset-button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+.reset-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+}
